@@ -1,3 +1,21 @@
 p {
 	margin: 1em;
 }
+
+.flex-container {
+	display: flex;
+	justify-content: left;
+}
+
+span > #logo {
+	flex-grow: 1;
+}
+
+#logo > h1 {
+	flex-grow: 9;
+	font-size: 100px
+}
+
+#news > li > a {
+	color: red;
+}
