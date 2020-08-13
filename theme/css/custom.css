@@ -8,13 +8,19 @@ p {
 	flex-flow: row wrap;
 }
 
+@media (min-width: 1300px) {
+	.flex-container {
+		flex-wrap: nowrap;
+	}
+}
+
 #logo > span {
 	flex-grow: 1;
 }
 
 #logo > h1 {
 	flex-grow: 9;
-	font-size: 100px
+	font-size: 100px;
 }
 
 #news > li > a {
