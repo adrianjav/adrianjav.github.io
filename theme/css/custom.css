@@ -5,9 +5,10 @@ p {
 .flex-container {
 	display: flex;
 	justify-content: left;
+	flex-flow: row wrap;
 }
 
-span > #logo {
+#logo > span {
 	flex-grow: 1;
 }
 
