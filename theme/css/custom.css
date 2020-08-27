@@ -23,6 +23,14 @@ p {
 	font-size: 100px;
 }
 
-#news > li > a {
+#news > li > a:not(:hover) {
 	color: red;
+}
+
+#pubs > li > a {
+	font-style: italic;
+}
+
+#pubs > li > a > i{
+	font-style: bold;
 }
