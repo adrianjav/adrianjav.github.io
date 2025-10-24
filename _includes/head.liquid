@@ -1,6 +1,17 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Custom javascript -->
+<script src="{{ '/assets/js/custom.js' | relative_url | bust_file_cache }}" type="module"></script>
+
+<!-- Bootstrap 5 -->
+<link
+  rel="stylesheet"
+  href="{{ site.third_party_libraries.bootstrap.url.css }}"
+  integrity="{{ site.third_party_libraries.bootstrap.integrity.css }}"
+  crossorigin="anonymous"
+>
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link

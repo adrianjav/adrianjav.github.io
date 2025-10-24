@@ -13,8 +13,32 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<ul class="nav nav-tabs">
+	<li class='nav-item'><a class="nav-link active" data-ref="#papers-all" aria-current="page" href="#">All</a></li>
+	<li class='nav-item'><a class="nav-link" data-ref="#papers-probml" aria-current="page" href="#">Probabilistic ML</a></li>
+	<li class='nav-item'><a class="nav-link" data-ref="#papers-causality" aria-current="page" href="#">Causality</a></li>
+	<li class='nav-item'><a class="nav-link" data-ref="#papers-moo" aria-current="page" href="#">Multi-objective</a></li>
+	<li class='nav-item'><a class="nav-link" data-ref="#papers-dltraining" aria-current="page" href="#">DL optimization</a></li>
+	<!-- <li class='nav-item'><a class="nav-link" data-ref="#papers-selected" aria-current="page" href="#">Selected</a></li> -->
+</ul>
 
-{% bibliography %}
-
+<div class="publications tab-content">
+    <div class="tab-pane active" id="papers-all">
+		{% bibliography %}
+	</div>
+	<div class="tab-pane" id="papers-probml">
+		{% bibliography --query @*[keywords ~= probml] %}
+	</div>
+	<div class="tab-pane" id="papers-causality">
+		{% bibliography --query @*[keywords ~= causality] %}
+	</div>
+	<div class="tab-pane" id="papers-moo">
+		{% bibliography --query @*[keywords ~= moo] %}
+	</div>
+	<div class="tab-pane" id="papers-dltraining">
+		{% bibliography --query @*[keywords ~= training] %}
+	</div>
+	<div class="tab-pane" id="papers-selected">
+		{% bibliography --query @*[selected=true] %}
+	</div>
 </div>
