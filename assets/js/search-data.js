@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -55,6 +55,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-latest-work-decaflow-a-deconfounding-causal-generative-model-has-been-accepted-as-a-spotlight-at-neurips-2025",
           title: 'Our latest work “DeCaFlow: A deconfounding causal generative model” has been accepted as...',
+          description: "",
+          section: "News",},{id: "news-how-to-square-tensor-networks-and-circuits-without-squaring-them-has-been-accepted-at-iclr-2026",
+          title: 'How to Square Tensor Networks and Circuits Without Squaring Them has been accepted...',
           description: "",
           section: "News",},{
       id: 'light-theme',
