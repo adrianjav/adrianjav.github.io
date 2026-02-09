@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-09'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -42,6 +42,6 @@ papers:
     title: Preliminary results on different text processing tasks using encoder-decoder networks and the causal feature extractor
     year: '2020'
   ne3evXwAAAAJ:ufrVoPGSRksC:
-    citations: 36
+    citations: 35
     title: Learnable graph convolutional attention networks
     year: '2023'
