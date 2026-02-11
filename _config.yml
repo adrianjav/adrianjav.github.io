@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: adrián's safety hideout # blog_name will be displayed in your blog page
+blog_description: a simple space to read science
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -199,7 +199,7 @@ exclude:
   - _pages/projects.md
   - _pages/books.md  # TODO: replace by videogames
   - _pages/profiles.md
-  - _pages/blog.md
+  # - _pages/blog.md
 
   # Individual elements
   - _books/the_godfather.md
@@ -212,37 +212,6 @@ exclude:
   - _projects/7_project.md
   - _projects/8_project.md
   - _projects/9_project.md
-  - _posts/2015-03-15-formatting-and-links.md
-  - _posts/2015-05-15-images.md
-  - _posts/2015-07-15-code.md
-  - _posts/2015-10-20-disqus-comments.md
-  - _posts/2015-10-20-math.md
-  - _posts/2018-12-22-distill.md
-  - _posts/2020-09-28-twitter.md
-  - _posts/2021-07-04-diagrams.md
-  - _posts/2022-02-01-redirect.md
-  - _posts/2022-12-10-giscus-comments.md
-  - _posts/2023-03-20-table-of-contents.md
-  - _posts/2023-03-21-tables.md
-  - _posts/2023-04-24-videos.md
-  - _posts/2023-04-25-audios.md
-  - _posts/2023-04-25-sidebar-table-of-contents.md
-  - _posts/2023-05-12-custom-blockquotes.md
-  - _posts/2023-07-04-jupyter-notebook.md
-  - _posts/2023-07-12-post-bibliography.md
-  - _posts/2023-12-12-tikzjax.md
-  - _posts/2024-01-26-chartjs.md
-  - _posts/2024-01-26-echarts.md
-  - _posts/2024-01-26-geojson-map.md
-  - _posts/2024-01-27-advanced-images.md
-  - _posts/2024-01-27-code-diff.md
-  - _posts/2024-01-27-vega-lite.md
-  - _posts/2024-04-15-pseudocode.md
-  - _posts/2024-04-28-post-citation.md
-  - _posts/2024-04-29-typograms.md
-  - _posts/2024-05-01-tabs.md
-  - _posts/2024-12-04-photo-gallery.md
-  - _posts/2025-03-26-plotly.md
 
 
 keep_files:
@@ -251,7 +220,9 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-3rd-party-libraries
   - jekyll-archives-v2
+  - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -263,6 +234,7 @@ plugins:
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-socials
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
@@ -309,8 +281,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["probabilistic-circuits"] # these tags will be displayed on the front page of your blog
+display_categories: ["papers"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -417,7 +389,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "auto-orient -quality 85"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -531,10 +503,10 @@ third_party_libraries:
     version: "8.0.6"
   jquery:
     integrity:
-      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      js: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
-    version: "3.6.0"
+    version: "3.7.1"
   leaflet:
     integrity:
       css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
