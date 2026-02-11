@@ -121,12 +121,29 @@ d-article {
         }
       }
     }
-    .figcaption {
+    figcaption {
       line-height: 1.4em;
     }
     toc-line {
       border-right: 1px solid var(--global-divider-color);
       grid-column: toc-line;
+    }
+  }
+
+  figure {
+    img {
+      background: var(--global-figure-bg-color);
+      padding: 10px;
+    }
+
+    picture {
+      display: flex;
+      justify-content: center;
+    }
+
+    figcaption {
+      color: var(--global-text-color);
+      text-align: left;
     }
   }
 
@@ -181,5 +198,27 @@ d-appendix {
         grid-column: none;
       }
     }
+  }
+}
+
+d-article p {
+  text-align: justify;
+  text-justify: distribute;
+}
+
+aside p {
+  text-justify: none;
+}
+
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened,
+.medium-zoom--opened {
+  background: var(--global-figure-bg-color);
+  padding: 10px;
+
+  .navbar,
+  footer {
+    visibility: hidden;
   }
 }
