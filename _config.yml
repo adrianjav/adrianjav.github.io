@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Adrián
-middle_name: 
+middle_name:
 last_name: Javaloy
 contact_note: >
   The best way of contacting me is through my academic email account.
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://adrianjav.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: true # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -49,7 +49,7 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: false  # Socials appearing in the search bar
+socials_in_search: false # Socials appearing in the search bar
 posts_in_search: true
 bib_search: true
 
@@ -197,7 +197,7 @@ exclude:
   - _pages/cv.md
   - _pages/teaching.md
   - _pages/projects.md
-  - _pages/books.md  # TODO: replace by videogames
+  - _pages/books.md # TODO: replace by videogames
   - _pages/profiles.md
   # - _pages/blog.md
 
@@ -212,7 +212,6 @@ exclude:
   - _projects/7_project.md
   - _projects/8_project.md
   - _projects/9_project.md
-
 
 keep_files:
   - CNAME
