@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-16'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: 'COPA: Comparing the incomparable in multi-objective model evaluation'
     year: '2025'
   ne3evXwAAAAJ:2osOgNQ5qMEC:
-    citations: 33
+    citations: 34
     title: Relative gradient optimization of the jacobian term in unsupervised deep learning
     year: '2020'
   ne3evXwAAAAJ:8k81kl-MbHgC:
-    citations: 0
+    citations: 1
     title: How to Square Tensor Networks and Circuits Without Squaring Them
     year: '2025'
   ne3evXwAAAAJ:9yKSN-GCB0IC:
@@ -22,11 +22,11 @@ papers:
     title: Lipschitz standardization for multivariate learning
     year: '2020'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 144
+    citations: 146
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 61
+    citations: 64
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
@@ -34,14 +34,14 @@ papers:
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
-    citations: 1
-    title: 'DeCaFlow: A Deconfounding Causal Generative Model'
+    citations: 2
+    title: 'DeCaFlow: A deconfounding causal generative model'
     year: '2025'
   ne3evXwAAAAJ:qjMakFHDy7sC:
     citations: 6
     title: Preliminary results on different text processing tasks using encoder-decoder networks and the causal feature extractor
     year: '2020'
   ne3evXwAAAAJ:ufrVoPGSRksC:
-    citations: 35
+    citations: 36
     title: Learnable graph convolutional attention networks
     year: '2023'
