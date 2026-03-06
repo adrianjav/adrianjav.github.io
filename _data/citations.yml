@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-03-06'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Relative gradient optimization of the jacobian term in unsupervised deep learning
     year: '2020'
   ne3evXwAAAAJ:8k81kl-MbHgC:
-    citations: 1
+    citations: 2
     title: How to Square Tensor Networks and Circuits Without Squaring Them
     year: '2025'
   ne3evXwAAAAJ:9yKSN-GCB0IC:
@@ -21,20 +21,24 @@ papers:
     citations: 2
     title: Lipschitz standardization for multivariate learning
     year: '2020'
+  ne3evXwAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale
+    year: '2026'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 146
+    citations: 150
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 64
+    citations: 66
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
-    citations: 45
+    citations: 46
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
-    citations: 2
+    citations: 3
     title: 'DeCaFlow: A deconfounding causal generative model'
     year: '2025'
   ne3evXwAAAAJ:qjMakFHDy7sC:
