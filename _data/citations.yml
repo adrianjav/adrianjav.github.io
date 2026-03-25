@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-25'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,19 +26,19 @@ papers:
     title: An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale
     year: '2026'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 151
+    citations: 152
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 66
+    citations: 67
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
-    citations: 46
+    citations: 48
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
-    citations: 4
+    citations: 5
     title: 'DeCaFlow: A deconfounding causal generative model'
     year: '2025'
   ne3evXwAAAAJ:qjMakFHDy7sC:
