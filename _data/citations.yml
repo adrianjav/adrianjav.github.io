@@ -1,16 +1,20 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-06'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
-    citations: 0
+    citations: 1
     title: 'COPA: Comparing the incomparable in multi-objective model evaluation'
     year: '2025'
   ne3evXwAAAAJ:2osOgNQ5qMEC:
     citations: 34
     title: Relative gradient optimization of the jacobian term in unsupervised deep learning
     year: '2020'
+  ne3evXwAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'Meet my expectations: on the interplay of trustworthiness and deep learning optimization'
+    year: '2024'
   ne3evXwAAAAJ:8k81kl-MbHgC:
-    citations: 2
+    citations: 3
     title: How to Square Tensor Networks and Circuits Without Squaring Them
     year: '2025'
   ne3evXwAAAAJ:9yKSN-GCB0IC:
@@ -26,21 +30,25 @@ papers:
     title: An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale
     year: '2026'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 152
+    citations: 153
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 67
+    citations: 69
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
-    citations: 48
+    citations: 51
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
-    citations: 5
+    citations: 6
     title: 'DeCaFlow: A deconfounding causal generative model'
     year: '2025'
+  ne3evXwAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: A Sobering Look at Tabular Data Generation via Probabilistic Circuits
+    year: '2026'
   ne3evXwAAAAJ:qjMakFHDy7sC:
     citations: 6
     title: Preliminary results on different text processing tasks using encoder-decoder networks and the causal feature extractor
