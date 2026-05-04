@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-05-04'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -14,7 +14,7 @@ papers:
     title: 'Meet my expectations: on the interplay of trustworthiness and deep learning optimization'
     year: '2024'
   ne3evXwAAAAJ:8k81kl-MbHgC:
-    citations: 3
+    citations: 5
     title: How to Square Tensor Networks and Circuits Without Squaring Them
     year: '2025'
   ne3evXwAAAAJ:9yKSN-GCB0IC:
@@ -30,15 +30,15 @@ papers:
     title: An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale
     year: '2026'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 153
+    citations: 154
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 69
+    citations: 71
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
-    citations: 51
+    citations: 58
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
@@ -54,6 +54,6 @@ papers:
     title: Preliminary results on different text processing tasks using encoder-decoder networks and the causal feature extractor
     year: '2020'
   ne3evXwAAAAJ:ufrVoPGSRksC:
-    citations: 36
+    citations: 37
     title: Learnable graph convolutional attention networks
     year: '2023'
