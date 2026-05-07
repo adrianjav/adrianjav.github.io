@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[How to Square Tensor Networks and Circuits Without Squaring Them](https://arxiv.org/abs/2512.17090) has been accepted at ICLR 2026
+🎉 [How to Square Tensor Networks and Circuits Without Squaring Them](https://arxiv.org/abs/2512.17090) will be at ICLR 2026

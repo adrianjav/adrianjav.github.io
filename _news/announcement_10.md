@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have joined the [april](https://april-tools.github.io/) lab as a postdoc at the Universty of Edimburgh 🙈
+🙈 I have joined the [april](https://april-tools.github.io/) lab as a postdoc at the Universty of Edimburgh

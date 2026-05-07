@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My dissertation was awarded with _summa cum laude_! 🎓
+🎓 My dissertation was awarded _summa cum laude!_
