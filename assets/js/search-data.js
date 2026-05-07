@@ -77,6 +77,9 @@ ninja.data = [{
           section: "News",},{id: "news-how-to-square-tensor-networks-and-circuits-without-squaring-them-will-be-at-iclr-2026",
           title: '🎉 How to Square Tensor Networks and Circuits Without Squaring Them will be...',
           description: "",
+          section: "News",},{id: "news-an-embarrassingly-simple-way-to-optimize-orthogonal-matrices-at-scale-will-be-at-icml-2026",
+          title: '🎉 An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale will be...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
