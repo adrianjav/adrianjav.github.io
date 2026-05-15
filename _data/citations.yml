@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-15'
 papers:
   ne3evXwAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -14,11 +14,11 @@ papers:
     title: 'Meet my expectations: on the interplay of trustworthiness and deep learning optimization'
     year: '2024'
   ne3evXwAAAAJ:8k81kl-MbHgC:
-    citations: 5
+    citations: 6
     title: How to Square Tensor Networks and Circuits Without Squaring Them
     year: '2025'
   ne3evXwAAAAJ:9yKSN-GCB0IC:
-    citations: 22
+    citations: 23
     title: "Text normalization using encoder\u2013decoder networks based on the causal feature extractor"
     year: '2020'
   ne3evXwAAAAJ:IjCSPb-OGe4C:
@@ -30,27 +30,27 @@ papers:
     title: An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale
     year: '2026'
   ne3evXwAAAAJ:Y0pCki6q_DkC:
-    citations: 154
+    citations: 158
     title: 'RotoGrad: Gradient Homogenization in Multitask Learning'
     year: '2022'
   ne3evXwAAAAJ:_FxGoFyzp5QC:
-    citations: 71
+    citations: 79
     title: 'Causal normalizing flows: from theory to practice'
     year: '2023'
   ne3evXwAAAAJ:eQOLeE2rZwMC:
-    citations: 58
+    citations: 59
     title: Mitigating modality collapse in multimodal VAEs via impartial optimization
     year: '2022'
   ne3evXwAAAAJ:hqOjcs7Dif8C:
-    citations: 6
+    citations: 9
     title: 'DeCaFlow: A deconfounding causal generative model'
-    year: '2025'
+    year: '2026'
   ne3evXwAAAAJ:kNdYIx-mwKoC:
     citations: 0
     title: A Sobering Look at Tabular Data Generation via Probabilistic Circuits
     year: '2026'
   ne3evXwAAAAJ:qjMakFHDy7sC:
-    citations: 6
+    citations: 7
     title: Preliminary results on different text processing tasks using encoder-decoder networks and the causal feature extractor
     year: '2020'
   ne3evXwAAAAJ:ufrVoPGSRksC:
