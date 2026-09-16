@@ -21,7 +21,12 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
+    export BUNDLE_APP_CONFIG="${BUNDLE_APP_CONFIG:-$PWD/.bundle}"
+    export BUNDLE_PATH="${BUNDLE_PATH:-$PWD/vendor/bundle}"
+    export BUNDLE_CACHE_PATH="${BUNDLE_CACHE_PATH:-$PWD/vendor/bundle/cache}"
+    # Keep auto-rebuild on file changes, but skip LiveReload and force-polling because
+    # the forwarded Codespaces browser path is slower with the extra websocket/polling traffic.
+    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --verbose --trace &
 }
 
 start_jekyll

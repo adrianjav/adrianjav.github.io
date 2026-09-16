@@ -14,6 +14,18 @@
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
   "postAttachCommand": "./bin/entry_point.sh",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Jekyll preview",
+      "onAutoForward": "notify"
+    }
+  },
+  "containerEnv": {
+    "BUNDLE_APP_CONFIG": "${containerWorkspaceFolder}/.bundle",
+    "BUNDLE_PATH": "${containerWorkspaceFolder}/vendor/bundle",
+    "BUNDLE_CACHE_PATH": "${containerWorkspaceFolder}/vendor/bundle/cache"
+  },
 
   "customizations": {
     "vscode": {
