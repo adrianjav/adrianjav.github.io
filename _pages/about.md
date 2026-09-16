@@ -24,9 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Lecturer in AI and Probablistic Machine Learning at the [University of Bath](https://www.bath.ac.uk/), as well as a member of the [Centre for Artificial Intelligence](https://www.bath.ac.uk/research-centres/centre-for-artificial-intelligence/) and [ELLIS](https://ellis.eu/person/adrian-javaloy).
+I am a Lecturer in AI and Probabilistic Machine Learning at the [University of Bath](https://www.bath.ac.uk/), as well as a member of the [Centre for Artificial Intelligence](https://www.bath.ac.uk/research-centres/centre-for-artificial-intelligence/) and [ELLIS](https://ellis.eu/person/adrian-javaloy).
 
-Prior, I was a postdoc at the [april lab](https://april-tools.github.io/) working with [Antonio Vergari](http://nolovedeeplearning.com/) and a PhD at the [Probabilistic Machine Learning group](https://machinelearning.uni-saarland.de/) advised by [Isabel Valera](https://ivaleram.github.io/).
+Before that, I was a postdoc at the [april lab](https://april-tools.github.io/) working with [Antonio Vergari](http://nolovedeeplearning.com/) and a PhD student at the [Probabilistic Machine Learning group](https://machinelearning.uni-saarland.de/) advised by [Isabel Valera](https://ivaleram.github.io/).
 
 My research focuses on developing methods that are reliable, principled, and efficient.
 My ultimate goal is to conduct interesting and principled science to better understand machine learning models and their post-training behaviour.
@@ -35,7 +35,7 @@ A non-exhaustive list of my current interests could be:
 - Probabilistic machine learning.
 - Tractable probabilistic models.
 - Causal generative models.
-- Constrained optimization.
+- Constrained optimisation.
 
 {: .announcement }
 > I am actively _looking for PhD students and visitors!_
