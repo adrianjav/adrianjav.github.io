@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://informatics.ed.ac.uk/'>University of Edinburgh</a>
+subtitle: 
 
 profile:
   align: right
@@ -24,11 +24,22 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoc at the [April lab](https://april-tools.github.io/) working with [Dr. Antonio Vergari](http://nolovedeeplearning.com/) on robust and reliable probabilistic machine learning approaches.
+I am a Lecturer in AI and Probablistic Machine Learning at the [University of Bath](https://www.bath.ac.uk/), as well as a member of the [Centre for Artificial Intelligence](https://www.bath.ac.uk/research-centres/centre-for-artificial-intelligence/) and [ELLIS](https://ellis.eu/person/adrian-javaloy).
 
-I completed my PhD at the [Probabilistic Machine Learning](https://machinelearning.uni-saarland.de/) group working with [Prof. Isabel Valera](https://ivaleram.github.io/) at [Saarland University](https://saarland-informatics-campus.de/en/).
-Before that, I worked at the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/) in Tübingen at the Empirical Inference department and the Probabilistic Machine Learning group.
+Prior, I was a postdoc at the [april lab](https://april-tools.github.io/) working with [Antonio Vergari](http://nolovedeeplearning.com/) and a PhD at the [Probabilistic Machine Learning group](https://machinelearning.uni-saarland.de/) advised by [Isabel Valera](https://ivaleram.github.io/).
 
 My research focuses on developing methods that are reliable, principled, and efficient.
-Loosely, I introduce inductive biases to models such that they comply with our expectations on how they should behave in the wild.
-My ultimate goal is to conduct interesting and principled research to better understand machine learning models and ease their deployment in the real-world.
+My ultimate goal is to conduct interesting and principled science to better understand machine learning models and their post-training behaviour.
+
+A non-exhaustive list of my current interests could be:
+- Probabilistic machine learning.
+- Tractable probabilistic models.
+- Causal generative models.
+- Constrained optimization.
+
+{: .announcement }
+> I am actively _looking for PhD students and visitors!_
+> 
+> If interested, _send me an email_ explaining how our research interests align and we can discuss options.
+
+

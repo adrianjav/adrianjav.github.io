@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: adrián's safety hideout # blog_name will be displayed in your blog page
-blog_description: a simple space to read science
+blog_name: adrián's lair # blog_name will be displayed in your blog page
+blog_description: a safe space to read science
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -169,6 +169,22 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
@@ -225,7 +241,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
-  - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
@@ -374,7 +389,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled to avoid generating many resized images during preview and rebuilds
   widths:
     - 480
     - 800
@@ -408,13 +423,13 @@ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # disable heavy layout work for faster preview performance
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
+enable_medium_zoom: false # disable zoom effects for faster loading
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 

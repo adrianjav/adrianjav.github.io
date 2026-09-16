@@ -63,6 +63,10 @@ blockquote {
   padding: 1em;
   font-size: 1.2rem;
 
+  &.announcement {
+    font-size: inherit;
+  }
+
   p {
     margin-bottom: 0;
   }
@@ -1525,4 +1529,15 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: visible;
+}
+
+
+.announcement {
+  padding: 1rem 1.25rem;
+  border: 1px solid #e07a5f;
+  border-left: 5px solid #e07a5f;
+  border-radius: 4px;
+  background: #fff4ed;
+  color: #382f2b;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
